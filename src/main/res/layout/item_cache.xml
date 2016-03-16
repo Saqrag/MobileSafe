@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_app_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:singleLine="true"
+        android:ellipsize="start"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="AppName"
+        android:layout_toRightOf="@id/iv_app_icon"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="wrap_content"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="IsInnerSpace"
+        android:layout_toRightOf="@id/iv_app_icon"
+        android:layout_below="@id/tv_app_name"
+        android:textSize="15dp"
+        />
+
+
+    <CheckBox
+        android:id="@+id/cb_process"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:layout_centerVertical="true"
+        />
+
+
+</RelativeLayout>

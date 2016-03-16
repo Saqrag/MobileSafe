@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MobileSafe</string>
+    <string name="setGuardPwd">请设置密码</string>
+    <string name="enterPwd">请输入密码</string>
+    <string name="confirmPwd">再次输入密码</string>
+    <string name="guide1_welcome">1欢迎使用手机防盗</string>
+    <string name="your_mobile_guard">您的手机防盗卫士:</string>
+    <string name="changeSIM">sim卡变更报警</string>
+    <string name="GPStrace">GPS追踪</string>
+    <string name="destoryData">远程数据销毁</string>
+    <string name="remoteLock">远程锁屏</string>
+    <string name="sample_device_admin_description">您需要手动激活管理员身份才能继续使用</string>
+    <string name="sample_device_admin">管理员权限</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bug="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TopBar"
+        android:text="高级工具" />
+
+    <com.bug.mobilesafe.views.CheckBoxItem
+        android:id="@+id/cbi_app_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="appLock"
+        bug:checked="false"
+        bug:desc_off="已关闭"
+        bug:desc_on="已开启"
+        bug:title="程序锁" />
+
+    <com.bug.mobilesafe.views.ClickItem
+        android:id="@+id/ci_app_lock"
+        android:onClick="addAppList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        bug:desc="防止他人进入此列表应用"
+        bug:title="添加锁定应用" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/jiantou1_pressed"
+        android:gravity="center_vertical"
+        android:onClick="attribution"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="电话归属地查询"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/jiantou1_pressed"
+        android:gravity="center_vertical"
+        android:onClick="backUpSms"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="短信备份"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <!--<ProgressBar-->
+    <!--android:id="@+id/pb_backup"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--style="?android:attr/progressBarStyleHorizontal"-->
+
+    <!--/>-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#000" />
+
+
+</LinearLayout>

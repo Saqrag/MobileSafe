@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bug="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bug.mobilesafe.views.CheckBoxItem
+        android:id="@+id/cbi_rocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        bug:checked="false"
+        bug:desc_off="已关闭"
+        bug:desc_on="已开启"
+        android:clickable="true"
+        bug:title="桌面火箭清理" />
+</LinearLayout>
