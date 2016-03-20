@@ -10,6 +10,6 @@ public class test extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        System.err.println("那么解决房价放假");
+        System.err.println("坎坎坷坷");
     }
 }
